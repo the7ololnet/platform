@@ -29,7 +29,7 @@ app.add_middleware(
 async def health_check():
     """
     Health check endpoint.
-    
+
     Returns:
         dict: Status information
     """
@@ -44,7 +44,7 @@ async def health_check():
 async def api_health_check():
     """
     API health check endpoint.
-    
+
     Returns:
         dict: API status information
     """
@@ -59,7 +59,7 @@ async def api_health_check():
 async def root():
     """
     Root endpoint.
-    
+
     Returns:
         dict: Welcome message
     """
